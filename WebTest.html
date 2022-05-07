@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<head>
+    <title>See Tickets - Search Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="//c.ststat.net/content/sites/seetickets/icons/favicon-32x32.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="//c.ststat.net/content/sites/seetickets/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//c.ststat.net/content/sites/seetickets/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="//c.ststat.net/content/sites/seetickets/icons/favicon-196x196.png" sizes="196x196">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/57cb23e7a3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="div-top">
+            <div class="country-language">
+                <div class="country">
+                    <div>
+                    </div>
+                    <p> ES <i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div class="language">
+                    <p><i class="fa-solid fa-message"></i> EN <i class="fa-solid fa-angle-down"></i></span>
+                    </div>
+                </div>
+                <nav class="nav-top">
+                    <ul>
+                        <li><a href="">Concerts</a></li>
+                        <li><a href="">Festivals</a></li>
+                        <li><a href="">Ibiza</a></li>
+                        <li><a href="">Sign In</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-logo-search">
+                <div class="img-burger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <a href="/">
+                        <img class="logo" id="logo-header" src="http://c.ststat.net/content/seetickets/logos/SeeTickets_570x96_black_transparent.png" >
+                    </a>
+                </div>
+                <form  class="search-form" action="/search" method="GET">
+                    <input class="g-site-search-term" id="g-site-search-input" name="q" type="search" autocomplete="off" maxlength="50" placeholder="Search artist, event, venue, location..." />
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+        </div>
+        <nav class="nav-bottom">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/">EVENTS</a></li>
+                <li><a href="/">ARTISTS</a></li>
+                <li><a href="/">STADIUMS</a></li>
+                <li><a href="/">CALENDAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="drop-down">
+        <ul class="drop-down-ul">
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="aus"></div>Australia</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="uk"></div>United Kingdom</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="fra"></div>France</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="ger"></div>Germany</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="ita"></div>Italy</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="ned"></div>Netherlands</li></a>
+            <a href="" class="drop-down-a"><li class="drop-down-li"><div class="usa"></div>United States</li></a>
+        </ul>
+    </div>
+    <main class="l-content">
+        <section class="carousel" aria-label="Gallery">
+            <div class="carousel__viewport">
+                <div id="carousel__slide1" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                </div>
+                <div id="carousel__slide2" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                </div>
+                <div id="carousel__slide3" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                </div>
+            </div>
+        </section>
+        <header class="border">
+            <h1>Events matching "london"</h1>
+            <div class="calendar">
+                <a href="">
+                    <i class="fa-regular fa-calendar"></i>
+                    <p>Check out our next events!</p>
+                </a>
+            </div>
+        </header>
+        <div class="main-events">
+            <section>
+                <form action="">
+                    <h3>Refine your search</h3>
+                    <fieldset>
+                        <h4>Event type</h4>
+                        <ul class="browse-cats">
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="2" name="dance" id="category-2"/>
+                                <label for="category-2">Dance and Clubs</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="3" name="rock" id="category-3"/>
+                                <label for="category-3">Rock</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="5" name="pop" id="category-5"/>
+                                <label for="category-5">Pop</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="92" name="other-music" id="category-92"/>
+                                <label for="category-92">Other Music</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="40" name="theatre" id="category-40"/>
+                                <label for="category-40">Theatre</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="14" name="festival" id="category-14"/>
+                                <label for="category-14">Festival</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="27" name="special-events" id="category-27"/>
+                                <label for="category-27">Special Events</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="76" name="comedy" id="category-76"/>
+                                <label for="category-76">Comedy</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="18" name="sport" id="category-18"/>
+                                <label for="category-18">Sport</label>
+                            </li>
+                            <li>
+                                <input class="event-checkbox" type="checkbox" value="246" name="attractions" id="category-246"/>
+                                <label for="category-246">Attractions</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </section>
+            <div class="results">
+                <ul class="search-results results g-blocklist g-ui-box-content box">
+                    <li class="li-results other-music">
+                        <div>
+                            <a href="/event/london-african-gospel-choir-bob-marley-songbook/earth-theatre-/2111100" title="London African Gospel Choir: Bob Marley Songbook">
+                                <img src="https://c.ststat.net/content/entimg//-1843065091-154x154.jpg" alt="London African Gospel Choir: Bob Marley Songbook" title="London African Gospel Choir: Bob Marley Songbook" />
+                                <div>
+                                    <span class="first-line">London African Gospel Choir: Bob Marley Songbook</span>
+                                    <span class="second-line">EartH (Theatre), Stoke Newington, London </span>                                          
+                                    <span class="third-line">Fri 25 Mar 2022, 20:00</span> 
+                                </div>
+                            </a>
+                            <aside> 
+                                <span>Artists: </span>
+                                <a href="/artist/the-london-african-gospel-choir/433284">The London African Gospel Choir</a>
+                            </aside>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                    <li class="li-results special-events">
+                        <div>
+                            <a href="/event/theophilus-london/jazz-cafe/2039119" title="Theophilus London">
+                                <img src="https://c.ststat.net/content/entimg/tour/theophilus-london-409157072-154x154.jpeg" alt="Theophilus London"/>
+                                <div>
+                                    <span class="first-line">Theophilus London</span>
+                                    <span class="second-line">Jazz Cafe, Camden, London</span>                                          
+                                    <span class="third-line">Mon 28 Mar 2022, 19:00</span> 
+                                </div>
+                            </a>
+                            <aside>
+                                <span>Artists:</span>
+                                <a href="/artist/theophilus-london/287711">Theophilus London</a>
+                            </aside>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                    <li class="li-results rock">
+                        <div>
+                            <a href="/event/london-calling-play-the-clash/the-garage/1473317" title="LONDON CALLING play The Clash">
+                                <img src="https://c.ststat.net/content/entimg/tour/london-calling-play-the-clash--1838779187-154x154.png" alt="LONDON CALLING play The Clash"/>
+                                <div>
+                                    <span class="first-line">LONDON CALLING play The Clash</span>
+                                    <span class="second-line">The Garage, Glasgow</span>                                          
+                                    <span class="third-line">Sat 19 Mar 2022, 19:00</span> 
+                                </div>
+                            </a>
+                            <aside>
+                                <span>Artists:</span>
+                                <a href="/artist/london-calling/96517">London Calling</a> and <a href="/artist/the-clash-tribute-/1447792">The Clash Tribute </a>
+                            </aside>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                    <li class="li-results rock">
+                        <div>
+                            <a href="/event/london-calling-play-the-clash/the-voodoo-rooms/1687911" title="LONDON CALLING play The Clash">
+                                <img src="https://c.ststat.net/content/entimg/tour/london-calling-play-the-clash--1838779187-154x154.png" alt="LONDON CALLING play The Clash"/>
+                                <div>
+                                    <span class="first-line">LONDON CALLING play The Clash</span>
+                                    <span class="second-line">The Voodoo Rooms, Edinburgh</span>                                          
+                                    <span class="third-line">Sun 20 Mar 2022, 19:00</span> 
+                                </div>
+                            </a>
+                            <aside>
+                                <span>Artists:</span>
+                                <a href="/artist/london-calling/96517">London Calling</a> and <a href="/artist/the-clash-tribute-/1447792">The Clash Tribute </a>
+                            </aside>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                    <li class="li-results sport">
+                        <div>
+                            <a href="/event/2021-22-london-under-12-sunday-cup-final/charlton-athletic-football-club/2272689" title="2021/22 London Under 12 Sunday Cup Final">
+                                <img class="no-data" src="https://c.ststat.net/content/entimg//--720169574-154x154.png" alt="2021/22 London Under 12 Sunday Cup Final"/>
+                                <div>
+                                    <span class="first-line">2021/22 London Under 12 Sunday Cup Final</span>
+                                    <span class="second-line">Charlton Athletic Football Club, London</span>                                          
+                                    <span class="third-line">Sun 06 Mar 2022, 11:00</span> 
+                                </div>
+                            </a>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                    <li class="li-results special-events">
+                        <div>
+                            <a href="/event/astroworld-london-s-biggest-party/the-lighthouse-bar-club/2287237" title="ASTROWORLD - London&#x27;s Biggest Party">
+                                <img class="no-data" src="https://c.ststat.net/content/entimg//--1685452998-154x154.jpeg" alt="ASTROWORLD - London&#x27;s Biggest Party"/>
+                                <div>
+                                    <span class="first-line">ASTROWORLD - London&#x27;s Biggest Party</span>
+                                    <span class="second-line">The Lighthouse Bar &amp; Club, London</span>                                          
+                                    <span class="third-line">Sat 16 Apr 2022, 22:00</span> 
+                                </div>
+                            </a>
+                        </div>
+                        <button>Buy Now!</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <main>
+            <section>
+                <a href="/">
+                    <img class="logo" src="img/white-logo.png" >
+                </a>
+                <div class="follow-us">
+                    <h5>FOLLOW US </h5>
+                    <div class="social-networks">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="/content/partial/terms-and-conditions" title="Terms and Conditions" data-handler="contextOverlay">Terms and Conditions</a></li>
+                    <li><a href="/content/cookies-info" title="Cookie Policy">Cookie Policy</a></li>
+                    <li><a href="/content/partial/data-protection" title="Data Protection" data-handler="contextOverlay">Data Protection</a></li>
+                    <li><a href="https://www.seetickets.us/" title="Visit See Tickets US" target="SeeTicketsUS">Visit See Tickets US</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Become a partner</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Newsletter</a></li>
+                </ul>
+            </nav>
+            <form action="">
+                <p>Download our App</p>
+                <button class="google"></button>
+                <button class="apple"></button>
+            </form>
+            
+            
+            
+        </main>
+        <p>See is a trademark of SEE GROUP LIMITED. Registered Office: 2nd Floor, Norfolk House, 47 Upper Parliament Street, Nottingham, NG1 2AB.</p>
+    </footer>
+</body>
+<script src="js/search.js"></script>
+<script src="js/check.js"></script>
+<script src="js/drop-down.js"></script>
+</html>
